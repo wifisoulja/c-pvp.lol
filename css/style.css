@@ -1,0 +1,58 @@
+* {
+    font-weight: 350;
+}
+
+body {
+    background: linear-gradient(-40deg, #1b1b1b, #1b1b1b, #1b1b1b);
+    color: rgb(12, 11, 11);
+}
+
+.text-purple {
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.vertical-center {
+    min-height: 80%;
+    align-items: center;
+}
+
+/* Animations */
+
+.fadeIn {
+    -webkit-animation: fadeIn 750ms both;
+    animation: fadeIn 750ms both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slider */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 23, 39);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(100, 100, 100);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+::-webkit-scrollbar-corner {
+    background: none;
+}
